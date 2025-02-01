@@ -72,12 +72,12 @@ Develop an **object-oriented** Unit Load Delivery (**ULD**) setup and tracking p
 - **Output format should match this example:**
 
 ```
-Unit load type:        Pallet
+Unit load type:         Pallet
 Unit load abbreviation: PMG
-Unit identifier:       PMG12345IB
-Aircraft type:         737
-Unit weight:          1257 pounds
-Destination code:      SJC
+Unit identifier:        PMG12345IB
+Aircraft type:          737
+Unit weight:            1257 pounds
+Destination code:       SJC
 ```
 
 ---
