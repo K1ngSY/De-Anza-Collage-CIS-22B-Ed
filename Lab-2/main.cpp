@@ -28,7 +28,7 @@ public:
     void setabbrev(string);
     void setuldid(string);
     void setaircraft(int);
-    void setweight(double);
+    void setweight(int);
     void setdestination(string);
 
     ///Accessor (getter) prototypes
@@ -74,7 +74,7 @@ void Cargo::setaircraft(int newAir) {
     air = newAir;
 }
 
-void Cargo::setweight(double newWt) {
+void Cargo::setweight(int newWt) {
     wt = newWt;
 }
 
