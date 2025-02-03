@@ -67,7 +67,7 @@ void Cargo::setabbrev(string newAbrv) {
 }
 
 void Cargo::setuldid(string newId) {
-    id = newId;
+    id = this->abrv + newId + "IB";
 }
 
 void Cargo::setaircraft(int newAir) {
