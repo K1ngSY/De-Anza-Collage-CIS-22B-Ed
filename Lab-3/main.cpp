@@ -143,7 +143,8 @@ void output(const Cargo &outputObj) {
 }
 
 int main() {
-    Cargo unit1("Container", "AYK", "68943", 737, 1654, "PDX");
+    Cargo unit1;
+    input(unit1);
     cout << "Unit1 output:" << endl;
     output(unit1);
 
