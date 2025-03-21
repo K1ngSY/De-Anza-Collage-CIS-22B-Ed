@@ -1,5 +1,3 @@
-///lab 5 Full Solution (with exception handling forward list and vectors examples)
-///complete as of 8/1/2024
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -23,7 +21,7 @@ protected:
     double weight;
     string destination;
 
-public:
+公共:
     ///Default constructor prototype
     Cargo();
 
@@ -57,7 +55,7 @@ public:
     double getweight() const;
     string getdestination() const;
 
-    virtual void maxweight(double&, double, string) = 0;  ///to be overridden
+    virtual void maxweight(double&, double， string) = 0;  ///to be overridden
 
 }; ///end of Cargo class
 
