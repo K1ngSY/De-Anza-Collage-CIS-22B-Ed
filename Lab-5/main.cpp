@@ -21,7 +21,7 @@ protected:
     double weight;
     string destination;
 
-公共:
+public:
     ///Default constructor prototype
     Cargo();
 
